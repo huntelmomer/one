@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "plearnjai.com";
+$username = "plearnja_cpsu1";
+$password = "ykvuXxBJ4q";
 $dbname = "MyDB@";
 
 // Create connection
