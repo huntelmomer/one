@@ -2,7 +2,7 @@
 $servername = "plearnjai.com";
 $username = "plearnja_cpsu1";
 $password = "ykvuXxBJ4q";
-$dbname = "MyDB@";
+$dbname = "plearnja_cpsu1";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
