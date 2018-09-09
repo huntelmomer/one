@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>ทดสอบ HTML</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-image:url('img/mm.jpg');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: SlateBlue;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 400px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 40%;
+    background-color: #f1f1f1;
+    height: 400px; /* only for demonstration, should be removed */
+}
+
+
+aside{
+ float: right;
+    width: 30%;
+    height: 400px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+	}
+
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+
+
+
+
+
+</head>
+<body style="background-image:url('img/bb.jpg'); background-repeat: no-repeat;
+    background-size: auto" >
+
+
+
+<header>
+  <h2>วิ่งกับลุงตู่</h2>
+</header>
+
+<section>
+  <nav>
+   <h2>HTML Forms</h2>
+   <form action="result.php">
+  First name:<br>
+  <input type="text" name="name" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="email" value="Mouse">
+  <br><br>
+  
+
+</form>
+  </nav>
+  
+  
+  <aside>
+  
+
+ <form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form> 
+  </aside>
+   
+  
+  
+  
+  <article>
+    <h1>Facebook</h1>
+   <a href="https://www.facebook.com/""target="blank">
+  <img src="img/Facebook.png" alt="Facebook" style="width:100px;height:100px;border:0">
+</a>
+<h2>The select Element</h2>
+<p>The select element defines a drop-down list:</p>
+
+<form action="/action_page.php">
+  <select name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br><br>
+  <input type="submit">
+</form>
+  </article>
+</section>
+
+<footer>
+   <form action="/action_page.php">
+  
+  <input type="submit" value="Submit">
+
+</form>
+   
+   
+</footer>
+
+
+</body>
+</html>
